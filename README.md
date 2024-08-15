@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Muslim Roadmap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Muslim Roadmap, a website that provides guidance to people who are looking to learn about Islam or become better Muslims. This website provides authentic references along with the exact citing of the information on special pages and lines.
 
-Currently, two official plugins are available:
+[Muslim roadmap link](https://muslimroadmap.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
 
-## Expanding the ESLint configuration
+To get started with this project, you will need to have Node.js and npm installed on your system. You can download and install Node.js from the official website at https://nodejs.org.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Once you have Node.js and npm installed, you can clone this repository to your local machine:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/your-username/muslim-roadmap.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Next, navigate to the project directory and install the project dependencies:
+
+```bash
+cd muslim-roadmap
+yarn install
+```
+
+Finally, you can start the development server by running:
+
+```bash
+npm start
+```
+
+To check build status, run:
+
+```bash
+yarn build
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Contributing
+
+Contributions are welcome and encouraged! If you would like to contribute to this project, please follow these steps:
+
+1. Fork this repository to your own GitHub account
+2. Clone the forked repository to your local machine
+3. Create a new branch for your changes
+4. Make your changes and commit them with descriptive commit messages
+5. Push your changes to your forked repository
+6. Submit a pull request back to the main repository
+
+Please make sure to follow the code style and best practices used in this project, and include tests for any new features or bug fixes.
+
+#### We hope you find Muslim Roadmap useful!
